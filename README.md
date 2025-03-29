@@ -1,5 +1,5 @@
 # codebase_to_text_file
-Simple script that goes through all files in a directory and subdirectories, and outputs the files with code into one text file with file names and locations. The primary use case is easier llm prompting.
+Simple script that goes through all files in a directory and subdirectories, and outputs the files with code into one text file with file names and locations. The primary use case is easier llm prompting. Feel free to add ignored extensions to the existing set.
 ## How to run
 ```bash
 python output_codebase.py path/to/your/codebase -o my_project_combined.txt
